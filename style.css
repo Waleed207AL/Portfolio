@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100vh;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    background: url("./image/flat-lay-workstation-with-copy-space-laptop.jpg") no-repeat center / cover ;
+
+    
+    
+}
+
+.header{
+    text-align: center;
+    padding-top: 200px;
+    
+   
+}
+.header h1 {
+ font-family: "Oleo Script", serif;
+  font-weight: 400;
+  font-size: 5.625rem;
+}
+.header h2{
+    margin-top: 20px;
+    font-family: "Oleo Script", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+
+}
+.header h3 {
+    margin-top: 20px;
+    font-family: "Oleo Script", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.underline{
+    text-decoration: underline;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+
+.image-box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 20px #fff;
+    margin-top: 100px;
+    
+
+  
+}
+
+.middle-container .image-box img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+   
+}
+
+.introduction h2 {
+  padding: 30px 0;
+  font-family: "Oleo Script", serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: rgb(14, 14, 54);
+  
+}
+.introduction p{
+  font-family: "Gentium Plus", serif;
+  font-weight: 600;  
+  font-size: 1.5rem; 
+  padding: 0 50px;
+  
+  
+  
+} 
+
+hr{
+    justify-self: center;
+    width: 600px;
+    border: 0;
+    border: 2px dashed rgb(3, 3, 104);
+    margin-top: 150px;
+    margin-bottom: 100px;
+   
+    
+} 
+
+.skills{
+    display: grid;
+    grid-template-columns: 0.2fr 0.75fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    text-align: left;
+    width: 75%;
+    margin: 100px auto 0 auto;
+}
+
+.subheader{
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-family: "Oleo Script", serif;
+    color: rgb(14, 14, 54);
+    
+}
+.paragraph-text h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.paragraph-text p {
+    font-size: 18px;
+}
+.paragraph-text2 h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.paragraph-text2 p {
+    font-size: 18px;
+}
+.img-computer img{
+    width: 250px;
+    height: auto;
+    
+}
+.img-planche img {
+    width: 250px;
+    height: auto;
+}
+
+
+.contact h2{
+    font-size: 40px;
+    color: rgb(14, 14, 54);
+    margin-bottom: 25px;
+    font-family: "Gentium Plus", serif;
+}
+
+.contact h3{
+    font-size: 20px;
+    color: rgb(14, 14, 54);
+    margin-bottom: 25px;
+    font-family: "Gentium Plus", serif;
+
+}
+.contact p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: "Gentium Plus", serif;
+
+}
+.contact button {
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Gentium Plus", serif;
+    border: 8px solid #fff;
+    background-color: rgb(14, 14, 54);
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .5s;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+
+}
+.contact button:hover{
+    background-color: transparent;
+    color: black;
+    border:4px solid rgb(14, 14, 54);
+    box-shadow: 0 0 10px black;
+    
+
+
+}
+.bottom-container{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(14, 14, 54);
+}
+
+.bottom-container .icons{
+display: inline-flex;
+align-items: center;
+justify-content: center;
+height: 200px;
+}
+.bottom-container .icons .linkedin {
+    margin-left: 50px;
+
+}
+.bottom-container .icons .instagram{
+    margin-left: 50px;
+} 
+.bottom-container .icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    transition: .5s;
+   
+}
+
+.bottom-container .icons a:hover{
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+}
+.copyright{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Gentium Plus", serif;
+
+}
+
+@media(max-width:960px){
+    
+    .container{
+        background-size: cover;
+        height: 100vh;
+        
+    
+        
+    }
+    .header{
+        padding-top: 80px;
+    }
+
+
+
+}
+    
+    
